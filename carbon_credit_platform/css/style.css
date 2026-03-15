@@ -1,0 +1,231 @@
+/* Reset & Base */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #fff;
+  color: #1a1a1a;
+  height: 100%;
+}
+
+/* Center the login box */
+#frm {
+  background: #f8f8f8;
+  width: 420px;
+  margin: 90px auto;
+  padding: 50px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+/* Page title */
+#frm h1 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+/* Label + Input spacing */
+#frm p {
+  margin: 18px 0;
+  text-align: left;
+}
+
+/* Labels */
+#frm label {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+/* Input fields */
+#frm input[type="text"],
+#frm input[type="password"] {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 9px;
+  background: #fafafa;
+  box-sizing: border-box;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+#frm input[type="text"]:focus,
+#frm input[type="password"]:focus {
+  border-color: #000;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  padding: 13.5px 0;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.15s ease;
+}
+
+.btn:hover {
+  background: #222;
+}
+
+/* Forgot password link */
+.signup-link {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.signup-link a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  transition: color 0.15s ease;
+}
+
+.signup-link a:hover {
+  color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  #frm {
+    width: 90%;
+    padding: 40px 25px;
+  }
+
+  #frm h1 {
+    font-size: 30px;
+  }
+}
+
+/* Reset & Base */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #fff;
+  color: #1a1a1a;
+  height: 100%;
+}
+
+/* Center container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #fff;
+}
+
+/* Registration Box */
+.login-box {
+  background: #f8f8f8;
+  padding: 50px 45px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  width: 420px;
+  text-align: center;
+}
+
+/* Heading */
+.login-box h2 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 35px;
+  color: #000;
+}
+
+/* Input Box Container */
+.input-box {
+  text-align: left;
+  margin-bottom: 22px;
+}
+
+/* Labels */
+.input-box label {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+/* Inputs */
+.input-box input[type="text"],
+.input-box input[type="email"],
+.input-box input[type="password"] {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 9px;
+  background: #fafafa;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input-box input:focus {
+  border-color: #000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  padding: 13.5px 0;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.15s ease;
+}
+
+.btn:hover {
+  background: #222;
+}
+
+/* Signup link */
+.signup-link {
+  margin-top: 25px;
+  font-size: 16px;
+  color: #222;
+}
+
+.signup-link a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  transition: color 0.15s ease;
+}
+
+.signup-link a:hover {
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .login-box {
+    width: 90%;
+    padding: 40px 25px;
+  }
+
+  .login-box h2 {
+    font-size: 30px;
+  }
+}
